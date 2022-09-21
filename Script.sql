@@ -62,5 +62,5 @@ alter table profile add CONSTRAINT FOREIGN KEY (avat_id)  references `avat` (id)
 add constraint FOREIGN KEY (subs_id)  references `subs` (id),
 add constraint FOREIGN KEY (post_id)  references `post` (id),
 add constraint FOREIGN KEY (video_id)  references `video` (id),
-add constraint FOREIGN KEY (like_id)  references `like` (id)
+add constraint FOREIGN KEY (like_id)  references `like` (id) 
 ;
